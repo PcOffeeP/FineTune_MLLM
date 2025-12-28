@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      { 
+        "role": "user", 
+        "content": "<video>Time and mode of fracture." 
+      },
+      { 
+        "role": "assistant", 
+        "content": "{\"time\": \"38.2s\", \"type\": \"ductile fracture\"}" 
+      }
+    ],
+    "videos": [
+      "path/to/video.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在哪一秒断裂？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"38.2s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_003.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么类型的断裂？"
+      },
+      {
+        "role": "assistant",
+        "content": "{ \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_003.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>告诉我断裂时间和断裂形式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"38.2s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_003.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Only give the fracture mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_003.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What second does the fracture take place?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"38.2s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_003.mp4"
+    ]
+  }
+]

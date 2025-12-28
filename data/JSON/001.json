@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>啥时候断的？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.1s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_001.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>请判断断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂，齐根断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_001.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>第几秒断的？属于哪种破坏？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.1s\", \"type\": \"韧性断裂，齐根断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_001.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does failure occur in the video?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.1s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_001.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Mode of fracture?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \" ductile fracture,grip-end fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_001.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>（What time? What failure mode?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.1s\", \"type\": \" ductile fracture,grip-end fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_001.mp4"
+    ]
+  }
+]

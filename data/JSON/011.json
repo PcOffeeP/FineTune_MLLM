@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>告诉我断裂发生在第几秒。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"30s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_011.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>如何分类这次断裂？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂，未加紧\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_011.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间的时间戳和模式名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"30s\", \"type\": \"脆性断裂，未加紧\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_011.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does failure occur in the video?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"30s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_011.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What type of failure is this?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture, unclamped\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_011.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Identify the fracture moment and pattern."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"30s\", \"type\": \"brittle fracture, unclamped\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_011.mp4"
+    ]
+  }
+]

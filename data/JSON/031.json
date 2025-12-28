@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时断裂？只回答时间。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"45.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_031.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂形式属于哪类？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_031.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂起始时刻和断裂类别？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"45.3 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_031.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"45.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_031.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What type of failure is this?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_031.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture time and fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"45.3 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_031.mp4"
+    ]
+  }
+]

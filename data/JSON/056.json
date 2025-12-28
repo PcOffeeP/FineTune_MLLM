@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"77.5 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_056.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂发生在第几秒？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"77.5 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_056.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>只告诉我断裂类型。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_056.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间的时间戳和模式名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"77.5 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_056.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Time and mode of fracture."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_056.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me the fracture type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_056.mp4"
+    ]
+  }
+]

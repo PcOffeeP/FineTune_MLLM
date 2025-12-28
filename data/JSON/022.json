@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me when it fractures and how."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_022.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>How would you categorize this break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_022.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>The time of fracture is?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"0s\", \"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_022.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>告诉我时间和断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"0s\", \"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_022.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么破坏方式？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_022.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频时间轴上，断裂发生在？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"0s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_022.mp4"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Is it ductile or brittle?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture, unclamped\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_038.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Give me the fracture time and its type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.8 s\", \"type\": \"ductile fracture, unclamped\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_038.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What's the break time?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.8 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_038.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样断裂的时间和形式分别是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.8 s\", \"type\": \"韧性断裂，未夹紧\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_038.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样的破坏形式如何？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂, 未夹紧\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_038.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在视频的第几秒断开？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.8 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_038.mp4"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂发生在哪个时刻？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"182.5s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_013.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂形式属于哪类？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂，界面脱粘\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_013.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>输出断裂时间和断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"182.5s\", \"type\": \"脆性断裂，界面脱粘\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_013.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does fracture initiate?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"182.5s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_013.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>How would you categorize this break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture, interface tear-off\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_013.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture time and fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"182.5s\", \"type\": \"brittle fracture, interface tear-off\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_013.mp4"
+    ]
+  }
+]

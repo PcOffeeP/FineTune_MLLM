@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间对应的时间是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"34.7 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_027.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样的断裂方式是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_027.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时拉断？怎么断的？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"34.7 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_027.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"34.7 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_027.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me the fracture type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_027.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second and mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"34.7 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_027.mp4"
+    ]
+  }
+]

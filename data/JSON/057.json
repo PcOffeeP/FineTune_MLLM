@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Give me the fracture time and its type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"66.4 s\", \"type\": \"video anomaly,no obvious fractures observed\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_057.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂起始时间点是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"66.4 s}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_057.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What does the fracture look like?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"video anomaly,no obvious fractures observed\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_057.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"66.4 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_057.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>给出断裂模式的术语名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"视频异常，未观察到明显的断裂现象\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_057.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频里第几秒断裂？什么类型？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"66.4 s\", \"type\": \"视频异常，未观察到明显的断裂现象\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_057.mp4"
+    ]
+  }
+]

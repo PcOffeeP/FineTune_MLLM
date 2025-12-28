@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频里第几秒出现断裂？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_006.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second and mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"unfractured\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_006.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>怎么断的？描述断裂形式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"s\", \"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_006.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Is it ductile or brittle?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"s\", \"type\": \"unfractured\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_006.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样断裂的时间和形式分别是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"s\", \"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_006.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"s\", \"type\": \"unfractured\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_006.mp4"
+    ]
+  }
+]

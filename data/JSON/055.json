@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样何时断裂？断裂特征是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"10.1 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_055.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>The time of fracture is?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"10.1 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_055.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me the fracture type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_055.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture timestamp and mode, please."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"10.1 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_055.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂模式属于哪一种？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_055.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在视频的第几秒断开？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"10.1 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_055.mp4"
+    ]
+  }
+]

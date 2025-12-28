@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>请判断断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_012.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂发生在第几秒？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_012.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>告诉我时间和断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_012.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Time of failure?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"no fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_012.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What type of failure is this?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"no fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_012.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Identify the fracture moment and pattern."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"no fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_012.mp4"
+    ]
+  }
+]

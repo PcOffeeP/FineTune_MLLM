@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂起始时间点是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"25.5s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_010.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么破坏方式？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"爆炸性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_010.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>输出断裂时间和断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"25.5s\", \"type\": \"爆炸性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_010.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"25.5s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_010.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What does the fracture look like?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"explosive fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_010.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When is the break? What is the fracture type?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"25.5s\", \"type\": \"explosive fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_010.mp4"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me when it fractures and how."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"17.3 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_060.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>How would you categorize this break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_060.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"17.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_060.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时发生断裂？请描述断裂形态。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"17.3 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_060.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>只回答断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_060.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>给我断裂的具体时间。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"17.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_060.mp4"
+    ]
+  }
+]

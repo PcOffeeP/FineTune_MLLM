@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>请问破坏发生在第几秒？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"19 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_059.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样的破坏形式如何？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂，未夹紧\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_059.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间的时间戳和模式名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"19 s\", \"type\": \"韧性断裂，未夹紧\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_059.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second and mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"19 s\", \"type\": \"ductile fracture,unclamped\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_059.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does it break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"19 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_059.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Describe the break pattern."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture,unclamped\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_059.mp4"
+    ]
+  }
+]

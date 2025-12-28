@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me the fracture type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_018.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does breakage occur? Describe it."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"21.9s\", \"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_018.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does fracture initiate?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"21.9s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_018.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂起始时刻和断裂类别？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"21.9s\", \"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_018.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂后试样呈现什么特征？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_018.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>请问破坏发生在第几秒？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"21.9s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_018.mp4"
+    ]
+  }
+]

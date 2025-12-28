@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What type of failure is this?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_047.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture time and fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.8 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_047.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What's the fracture timestamp?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.8 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_047.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样何时发生破坏？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.8 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_047.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时发生断裂？请描述断裂形态。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"5.8 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_047.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么断裂类型？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_047.mp4"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>告诉我断裂发生在第几秒。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"153s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_007.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样破坏模式是啥？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"纤维拔出断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_007.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>请指出破坏发生的时刻和类型。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"153s\", \"type\": \"纤维拔出断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_007.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Time of failure?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"153s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_007.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"fiber pull-out fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_007.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture timestamp and mode, please."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"153s\", \"type\": \"fiber pull-out fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_007.mp4"
+    ]
+  }
+]

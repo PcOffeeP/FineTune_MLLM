@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture time and fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"no fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_016.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me the fracture type."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"no fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_016.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At which moment does fracture happen?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"no fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_016.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在哪一秒断裂？断裂方式是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_016.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样破坏模式是啥？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_016.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间对应的时间是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_016.mp4"
+    ]
+  }
+]

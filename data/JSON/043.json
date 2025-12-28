@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What type of failure is this?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_043.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what second does it break? What mode?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"106.7 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_043.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At which moment does fracture happen?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"106.7 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_043.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时拉断？怎么断的？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"106.7 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_043.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么断裂类型？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_043.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频时间轴上，断裂发生在？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"106.7 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_043.mp4"
+    ]
+  }
+]

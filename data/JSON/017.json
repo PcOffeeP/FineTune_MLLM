@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么断裂类型？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_017.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时断裂？只回答时间。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"65.9s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_017.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂发生在第几秒？属于什么模式？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"65.9s\", \"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_017.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"65.9s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_017.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Only give the fracture mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_017.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me when it fractures and how."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"65.9s\", \"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_017.mp4"
+    ]
+  }
+]

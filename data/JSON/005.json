@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>请问破坏发生在第几秒？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_005.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样的破坏形式如何？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_005.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>第几秒断的？属于哪种破坏？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"未断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_005.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does failure occur in the video?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"unfractured\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_005.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What failure mode does it show?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"unfractured\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_005.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Give both time and fracture style."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"unfractured\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_005.mp4"
+    ]
+  }
+]

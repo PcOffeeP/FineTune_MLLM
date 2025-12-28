@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样断裂的时间戳是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"52s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_008.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样破坏模式是啥？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_008.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间的时间戳和模式名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"52s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_008.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"52s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_008.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Classify the fracture behavior."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_008.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Tell me when it fractures and how."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"52s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_008.mp4"
+    ]
+  }
+]

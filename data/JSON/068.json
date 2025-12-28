@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What failure mode does it show?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_068.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Time of fracture and failure description."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"163 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_068.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"163 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_068.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时发生断裂？请描述断裂形态。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"163 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_068.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样断裂的形态是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_068.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频时间轴上，断裂发生在？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"163 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_068.mp4"
+    ]
+  }
+]

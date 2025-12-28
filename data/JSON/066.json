@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Identify the fracture style."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"video anomaly,no obvious fractures observed\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_066.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What time does it break and how?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"220 s\", \"type\": \"video anomaly,no obvious fractures observed\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_066.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂瞬间对应的时间是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"220 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_066.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What second does the fracture take place?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"220 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_066.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>给出断裂模式的术语名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"视频异常，未观察到明显的断裂现象\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_066.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂发生在第几秒？属于什么模式？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"220 s\", \"type\": \"视频异常，未观察到明显的断裂现象\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_066.mp4"
+    ]
+  }
+]

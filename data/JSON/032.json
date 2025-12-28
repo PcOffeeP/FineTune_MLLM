@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Only give the fracture mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_032.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Report the fracture second and mode."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"28.2 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_032.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At which moment does fracture happen?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"28.2 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_032.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在哪一秒断裂？断裂方式是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"28.2 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_032.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>给出断裂模式的术语名称。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_032.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在视频的第几秒断开？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"28.2 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_032.mp4"
+    ]
+  }
+]

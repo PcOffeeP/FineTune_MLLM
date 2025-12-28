@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样断裂的时间戳是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_067.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么断裂类型？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_067.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>第几秒断的？属于哪种破坏？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.3 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_067.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Time of fracture and failure description."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.3 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_067.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At which moment does fracture happen?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"33.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_067.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>How would you categorize this break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_067.mp4"
+    ]
+  }
+]

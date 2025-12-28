@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>拉断的具体时间是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"148.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_065.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>只告诉我断裂类型。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"视频异常，未观察到明显的断裂现象\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_065.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"148.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_065.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"148.3 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_065.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Identify the fracture style."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"video anomaly,no obvious fractures observed\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_065.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What time? What failure mode?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"148.3 s\", \"type\": \"video anomaly,no obvious fractures observed\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_065.mp4"
+    ]
+  }
+]

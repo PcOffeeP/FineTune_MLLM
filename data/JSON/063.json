@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>何时发生断裂？请描述断裂形态。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"55.5 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_063.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>只回答断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_063.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂起始时间点是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"55.5 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_063.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_063.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does fracture initiate?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"55.5 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_063.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Fracture time and fracture pattern?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"55.5 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_063.mp4"
+    ]
+  }
+]

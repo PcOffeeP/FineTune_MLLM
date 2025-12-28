@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频时间轴上，断裂发生在？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"41.5 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_058.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>断裂后试样呈现什么特征？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_058.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At which moment does fracture happen?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"41.5 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_058.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>第几秒断的？属于哪种破坏？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"41.5 s\", \"type\": \"韧性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_058.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does breakage occur? Describe it."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"41.5 s\", \"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_058.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>How did it break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"ductile fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_058.mp4"
+    ]
+  }
+]

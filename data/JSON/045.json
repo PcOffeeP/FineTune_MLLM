@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>试样在哪一秒断裂？断裂方式是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"1s\", \"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_045.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>When does the sample break?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"1 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_045.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Identify the fracture moment and pattern."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"1 s\", \"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_045.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>Give the fracture mode name."
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_045.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>告诉我断裂发生在第几秒。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"1 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_045.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>这是什么类型的断裂？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_045.mp4"
+    ]
+  }
+]

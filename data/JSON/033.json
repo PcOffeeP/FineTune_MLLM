@@ -1,0 +1,92 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>拉断的具体时间是？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"151.2 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_033.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>只回答断裂模式。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"脆性断裂，界面脱粘\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_033.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>视频里第几秒断裂？什么类型？"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"151.2 s\", \"type\": \"脆性断裂，界面 tuhuan\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_033.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what time does the specimen fail?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"151.2 s\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_033.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>What does the fracture look like?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"type\": \"brittle fracture,interface tear-off\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_033.mp4"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video>At what second does it break? What mode?"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"time\": \"151.2 s\", \"type\": \"brittle fracture,interface tear-off\"}"
+      }
+    ],
+    "videos": [
+      "data/Video/train/train_033.mp4"
+    ]
+  }
+]
