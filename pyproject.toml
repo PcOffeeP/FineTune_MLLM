@@ -1,7 +1,16 @@
 [project]
-name = "vllm"
+name = "finetune-mllm"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "decord>=0.6.0",
+    "pillow>=12.0.0",
+    "psutil>=7.1.3",
+    "nvidia-ml-py>=12.0.0",
+    "scipy>=1.16.3",
+    "torch>=2.9.1",
+    "transformers>=4.57.1",
+    "torchvision>=0.24.1",
+]
